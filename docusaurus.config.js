@@ -2,7 +2,7 @@ module.exports = {
   title: 'Medtna',
   tagline: 'Medtna Documentation',
   url: 'https://medtna.github.io',
-  baseUrl: '/docs/',
+  baseUrl: '/',
   favicon: 'img/favicon.ico',
   organizationName: 'medtna', // Usually your GitHub org/user name.
   projectName: 'docs', // Usually your repo name.
@@ -70,12 +70,12 @@ module.exports = {
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              href: 'https://twitter.com/medtnaorg',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Medtna. Built with Docusaurus.`,
     },
   },
   presets: [
